@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+main{
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+}
+
+.container-logo-diego{
+    width: 100%;
+    height: 250px;
+    background-color: chocolate;
+}
+
+.container-logo-diego article h1,picture{
+    display: inline-block;
+}
+
+.container-logo-diego article{
+    width: 50%;
+    height: 250px;
+    background-color: aqua;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.container-logo-diego span{
+    width: 90%;
+    height: 250px;
+    background-color: aquamarine;
+}
+
+.container-logo-diego article h1{
+    font-size: 20rem;
+}
+
+.letter-one {
+    color: chartreuse;
+    opacity: 1;
+    position: relative;
+}
+
+.letter-two {
+    color: yellow;
+    opacity: 0.7;
+    position: relative;
+    right: 40px;
+}
+
+.letter-three {
+    color: red;
+    opacity: 1;
+    position: relative; 
+    right: 75px;
+}
+
+.letter-four {
+    color: cornflowerblue;
+    opacity: 1;
+    position: relative;
+    right: 130px;
+}
+
+.letter-five {
+    opacity: 1;
+    position: relative;
+    right: 130px;
+}
