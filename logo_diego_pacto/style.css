@@ -15,8 +15,8 @@ main{
 
 .container-logo-diego{
     width: 100%;
-    height: 250px;
-    background-color: chocolate;
+    height: 50vh;
+    background-color: transparent;
 }
 
 .container-logo-diego article h1,picture{
@@ -25,8 +25,8 @@ main{
 
 .container-logo-diego article{
     width: 50%;
-    height: 250px;
-    background-color: aqua;
+    height: 50vh;
+    background-color: transparent;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -35,43 +35,63 @@ main{
 
 .container-logo-diego span{
     width: 90%;
-    height: 250px;
-    background-color: aquamarine;
+    height: 200px;
+    background-color: transparent;
 }
 
 .container-logo-diego article h1{
-    font-size: 20rem;
+    font-size: 18rem;
 }
 
 .letter-one {
-    color: chartreuse;
-    opacity: 1;
-    position: relative;
+    color: rgba(255, 184, 6, 0.918);
+    opacity: 0.8;
 }
 
 .letter-two {
-    color: yellow;
-    opacity: 0.7;
-    position: relative;
-    right: 40px;
+    color: darkblue;
+    opacity: 0.8;
 }
 
 .letter-three {
-    color: red;
-    opacity: 1;
-    position: relative; 
-    right: 75px;
+    color: rgb(228, 11, 11);
+    opacity: 0.8;
 }
 
 .letter-four {
-    color: cornflowerblue;
-    opacity: 1;
-    position: relative;
-    right: 130px;
+    color: rgb(40, 143, 40);
+    opacity: 0.8;
 }
 
-.letter-five {
-    opacity: 1;
-    position: relative;
-    right: 130px;
+.letter-five img{
+    opacity: 0.8;
 }
+
+
+.container-logo-diego img{
+    width: 15rem;
+    height: 14rem;
+}
+
+.container-logo-pacto {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: transparent;
+}
+
+.container-logo-pacto picture{
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container-logo-pacto picture img{
+    width: 60%;
+    height: 30vh;
+}
+
+
