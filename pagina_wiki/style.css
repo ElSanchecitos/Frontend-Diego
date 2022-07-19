@@ -307,7 +307,7 @@ header .container-second-down .container-menu-language{
 
 main{
     width: 100%;
-    height: 80vh;
+    height: 70vh;
     background-color: transparent;
     border-top: 1px solid var(--second-color);
 }
@@ -332,6 +332,7 @@ main .grid-layout .caja{
     font-size: var(--second-font-size);
     display: flex;
     align-items: center;
+    margin: 15px;
 }
 
 
@@ -379,7 +380,7 @@ main .grid-layout .container-caja-c2 {
 
 main .grid-layout .content-img-text{
     width: 100%;
-    height: 60%;
+    height: 70%;
     display: flex;
     background-color: transparent;
     padding: 18px 15px 0px 0px;
@@ -410,6 +411,51 @@ main .grid-layout .container-imgs-app-store{
 main .grid-layout .container-imgs-app-store img{
     width: 120px;
     height: 5rem;
+}
+
+
+footer{
+    width: 100%;
+    height: 10vh;
+    background-color: transparent;
+    font-size: var(--second-font-size);
+}
+
+footer div{
+    margin: 0 auto;
+    width: 75%;
+    height: 10vh;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+}
+
+footer div .container-one-footer{
+    display: flex;
+    line-height: 10vh;
+    width: 60%;
+    height: 10vh;
+    background-color: transparent;
+}
+
+footer div .container-two-footer{
+    display: flex;
+    line-height: 10vh;
+    width: 30%;
+    height: 10vh;
+    background-color: transparent;
+}
+
+footer div a{
+    color: var(--first-color);
+}
+
+footer div .container-one-footer p{
+    margin: 0px 5px 0px 9px;
+}
+
+footer div .container-two-footer a{
+    margin-left: 10px;
 }
 
 
