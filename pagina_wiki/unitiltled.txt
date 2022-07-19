@@ -1,41 +1,169 @@
-<span class="">
-                <a href="">Francais</a>
-                <p>1 681 000+ artículos</p>
+<section class="grid-layout">
+        <ul class="column 1">
+          <li>
+            <figure>
+              <img src="" alt="">
+            </figure>
+            <p>Wikipedia es alojada por la Fundación Wikimedia, una organización sin fines de lucro que también alberga una gama de otros proyectos.</p>
+          </li>
+          <li>
+            <figure>
+              <img src="" alt="">
+            </figure>
+            <span>
+              <a href="#">
+                <h3>Descargar Wikipedia para Android o iOS</h3>
+              </a>
+              <p>Guarda tus artículos favoritos para leerlos sin conexión, sincroniza tus listas de lectura en varios dispositivos y personaliza tu experiencia de lectura con la aplicación oficial de Wikipedia.</p>
             </span>
-            <span class="">
-                <a href="">Italiano</a>
-                <p>1 681 000+ artículos</p>
+            <span>
+              <a href="#">
+                <img src="" alt="">
+              </a>
+              <a href="#">
+                <img src="" alt="">
+              </a>
             </span>
-            <span class="">
-                <a href="">Japones</a>
-                <p>1 681 000+ artículos</p>
+          </li>
+        </ul>
+        <ul class="column 2">
+          <li>
+            <figure>
+              <img src="" alt="">
+            </figure>
+            <span>
+              <a href="">
+                <h3>Commons</h3>
+              </a>
+              <p>Fotos libremente utilizables y más</p>
             </span>
-            <span class="">
-                <a href="">Portugues</a>
-                <p>1 681 000+ artículos</p>
+          </li>
+          <li>
+            <figure>
+              <img src="" alt="">
+            </figure>
+            <span>
+              <a href="">
+                <h3>Wikilibros</h3>
+              </a>
+              <p>
+                Libros de contenido libre
+              </p>
             </span>
-            <span class="">
-                <a href="">Polski</a>
-                <p>1 681 000+ artículos</p>
+          </li>
+          <li>
+            <figure>
+              <img src="" alt="">
+            </figure>
+            <span>
+              <a href="">
+                <h3>Wikidiversidad</h3>
+              </a>
+              <p>Plataforma educativa libre</p>
             </span>
-
-             <span class="">
-                <a href="">Español</a>
-                <p>1 681 000+ artículos</p>
+          </li>
+          <li>
+            <figure>
+              <img src="" alt="">
+            </figure>
+            <span>
+              <a href="">
+                <h3>wikisource</h3>
+              </a>
+              <p>La biblioteca libre</p>
             </span>
-            <span class="">
-                <a href="">English</a>
-                <p>1 681 000+ artículos</p>
+          </li>
+        </ul>
+        <ul class="column 3">
+          <li>
+            <figure>
+              <img src="" alt="">
+            </figure>
+            <span>
+              <a href="">
+                <h3>Wikiviajes</h3>
+              </a>
+              <p>La guías de viajes libre</p>
             </span>
-            <span class="">
-                <a href="">Chino</a>
-                <p>1 681 000+ artículos</p>
+          </li>
+          <li>
+            <figure>
+              <img src="" alt="">
+            </figure>
+            <span>
+              <a href="">
+                <h3>Wikinoticias</h3>
+              </a>
+              <p>La fuente de noticias libres</p>
             </span>
-            <span class="">
-                <a href="">Deutsch</a>
-                <p>1 681 000+ artículos</p>
+          </li>
+          <li>
+            <figure>
+              <img src="" alt="">
+            </figure>
+            <span>
+              <a href="">
+                <h3>Wikiquote</h3>
+              </a>
+              <p>La colección de citas</p>
             </span>
-            <span class="">
-                <a href="">Pyccknñ</a>
-                <p>1 681 000+ artículos</p>
+          </li>
+          <li>
+            <figure>
+              <img src="" alt="">
+            </figure>
+            <span>
+              <a href="">
+                <h3>Wikispecies</h3>
+              </a>
+              <p>Directorio de especies libres</p>
             </span>
+          </li>
+        </ul>
+        <ul class="column 4">
+          <li>
+            <figure>
+              <img src="" alt="">
+            </figure>
+            <span>
+              <a href="">
+                <h3>Wikiccionario</h3>
+              </a>
+              <p>El diccionario libre</p>
+            </span>
+          </li>
+          <li>
+            <figure>
+              <img src="" alt="">
+            </figure>
+            <span>
+              <a href="">
+                <h3>Wikidata</h3>
+              </a>
+              <p>Base de conocimiento libre</p>
+            </span>
+          </li>
+          <li>
+            <figure>
+              <img src="" alt="">
+            </figure>
+            <span>
+              <a href="">
+                <h3>MediaWiki</h3>
+              </a>
+              <p>Aplicación wiki libre y abierta</p>
+            </span>
+          </li>
+          <li>
+            <figure>
+              <img src="" alt="">
+            </figure>
+            <span>
+              <a href="">
+                <h3>MetaWiki</h3>
+              </a>
+              <p>Coordinacción y documentación comunitaria</p>
+            </span>
+          </li>
+        </ul>
+      </section>

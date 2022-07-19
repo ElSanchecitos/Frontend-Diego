@@ -1,0 +1,17 @@
+body{
+    background-color: cornflowerblue;
+    width: 100%;
+    height: 100vh;
+}
+
+.container-icon-lupa{
+    width: 100px;
+    height: 100px;
+    background-color: chartreuse;
+}
+
+.container-code-lupa{
+    fill: currentcolor;
+    color: white;
+}
+

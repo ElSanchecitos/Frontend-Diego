@@ -7,8 +7,9 @@
 :root{
     --first-color : #36c;
     --second-color: #54595d;
-    --first-font-zise: 1.6rem;
-    --second-font-size: 1.3rem;
+    --three-color: #f8f9fa;
+    --first-font-zise: 1.5rem;
+    --second-font-size: 1.4rem;
 }
 
 html{
@@ -27,7 +28,7 @@ body{
 header{
     width: 60%;
     height: 63rem;
-    background-color: darkgray;
+    background-color: transparent;
     margin: 0 auto;
     font-size: var(--first-font-zise);
 }
@@ -37,7 +38,7 @@ header .container-title-up{
     display: block;
     width: 100%;
     height: 10rem;
-    background-color: aquamarine;
+    background-color: transparent;
 }
 
 header .container-title-up figure{
@@ -180,5 +181,241 @@ header .container-main-center span p{
     position: relative;
     right: 1rem;
 }
+
+
+header .container-header-down{
+    background-color: transparent;
+    width: 100%;
+    height: 13rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+
+header .container-header-down .container-first-up{
+    width: 55%;
+    height: 4rem;
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-bottom: 1.5px solid var(--second-color);
+    border-top: 1.5px solid var(--second-color);
+    border-left: 1.5px solid var(--second-color);
+    border-radius: 5px;
+}
+
+header .container-header-down .container-first-up:hover{
+    border-bottom: 2px solid var(--first-color);
+    border-top: 2px solid var(--first-color);
+    border-left: 2px solid var(--first-color);
+}
+
+
+
+header .container-first-up .container-input{
+    width: 80%;
+    height: 3.5rem;
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header .container-first-up .container-input input{
+    width: 85%;
+    height: 3.5rem;
+    border: none;
+    outline: none;
+}
+
+
+header .container-first-up .container-input select{
+    width: 15%;
+    height: 3rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: var(--second-color);
+}
+
+header .container-first-up .container-input select:hover{
+    color: var(--first-color);
+}
+
+header .container-first-up .container-icon-lupa{
+    width: 15%;
+    height: 4rem;
+    background-color: var(--first-color);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+header .container-first-up .container-code-lupa svg{
+    width: 3rem;
+    height: 3rem;
+    color: white;
+    fill: currentcolor;
+}
+
+header .container-first-up .container-code-lupa{
+    width: 100%;
+    height: 4rem;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .container-second-down {
+    width: 55%;
+    height: 4rem;
+    background-color: transparent;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .container-second-down .linea{
+    width: 100%;
+    height: 1px;
+    background-color: var(--second-color);
+}
+
+header .container-second-down .container-menu-language{
+    width: 250px;
+    height: 30px;
+    background-color: white;
+    position: absolute;
+    text-align: center;
+    line-height: 30px;
+}
+
+.container-second-down .container-menu-language select{
+    height: 30px;
+    color: var(--first-color);
+    background-color: var(--three-color);
+    border: 1px solid var(--second-color);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+main{
+    width: 100%;
+    height: 80vh;
+    background-color: transparent;
+    border-top: 1px solid var(--second-color);
+}
+
+main .grid-layout{
+    display: grid;
+    grid-template-columns: 30% 23% 24% 23%;
+    grid-template-rows: 90px 90px 90px 90px;
+    width: 95%;
+    margin: 0 auto;
+    background-color: transparent;
+    padding: 20px;
+}
+
+main .grid-layout a{
+    color: var(--first-color);
+}
+
+main .grid-layout .caja{
+    background-color: transparent;
+    color: #54595d;
+    font-size: var(--second-font-size);
+    display: flex;
+    align-items: center;
+}
+
+
+main .grid-layout div figure{
+    width: 25%;
+    height: 7rem;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .grid-layout div img{
+    width: 5.5rem;
+    height: 6rem;
+    background-color: transparent;
+}
+
+main .grid-layout div span{
+    width: 75%;
+    height: 7rem;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+
+main .grid-layout .c1{
+    text-align: justify;
+}
+
+main .grid-layout .c2{
+    grid-row: 2/5;
+    display: flex;
+    align-items: flex-start;
+}
+
+main .grid-layout .container-caja-c2 {
+    width: 100%;
+    height: 100%;
+    background-color: var(--three-color);
+    display: block;
+}
+
+main .grid-layout .content-img-text{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    background-color: transparent;
+    padding: 18px 15px 0px 0px;
+    text-align: justify;
+}
+
+main .grid-layout .content-img-text figure{
+    width: 25%;
+    height: 10rem;
+    background-color: transparent;
+}
+
+main .grid-layout .content-img-text span{
+    width: 75%;
+    height: 14rem;
+    background-color: transparent;
+}
+
+main .grid-layout .container-imgs-app-store{
+    width: 100%;
+    height: 30%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+main .grid-layout .container-imgs-app-store img{
+    width: 120px;
+    height: 5rem;
+}
+
+
+
+
+
+
 
 
