@@ -1,0 +1,19 @@
+body {
+    background-image: url(./imgs/main-grande.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.container-main-down .c1-img {
+    width: 80%;
+    min-width: 500px;
+    max-width: 1500px;
+}
+
+.container-main-down .c1-img {
+    margin: 8px 25px 8px 8px;
+}
+

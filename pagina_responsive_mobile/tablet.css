@@ -1,0 +1,37 @@
+body{
+    background-image: url(./imgs/tablet_fondo_2.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container-main-up {
+    font-size: 1.5rem;
+}
+
+.container-main-down {
+    flex-wrap: nowrap;
+    padding: 3rem;
+}
+
+
+.container-main-down .c1-img {
+    margin: 10px 15px 10px 10px;
+}
+
+.container-main-down article .c2, .c3, .c4, .c5{
+    min-width: 120px;
+    max-width: 700px;
+    max-height: 700px;
+}
+
+
+
+
+
+
+
+
+
+
